@@ -9,6 +9,14 @@
   <img src="https://img.shields.io/badge/shadcn%2Fui-components-000" alt="shadcn/ui" />
 </p>
 
+| Field | Value |
+|-------|-------|
+| **Title** | SprintNotes |
+| **Description** | Minimal server-rendered sprint/meeting notes dashboard with Next.js, Tailwind, shadcn/ui, and Better-SQLite3. |
+| **Language** | TypeScript / Next.js App Router |
+| **Tags** | `nextjs` · `typescript` · `tailwindcss` · `prisma` · `better-sqlite3` · `shadcn-ui` · `meeting-notes` |
+| **Author** | Henry Samuel — [@Henry-Samuel](https://github.com/Henry-Samuel) |
+
 A minimal, server-rendered sprint/meeting notes dashboard built with **Next.js App Router**, **TypeScript**, **Tailwind CSS**, **shadcn/ui**, and **Better-SQLite3**. It demonstrates Server Actions, server-side data fetching, and a clean local-first storage layer without a hosted database.
 
 ## Screenshot
