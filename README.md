@@ -32,6 +32,11 @@ A minimal, server-rendered sprint/meeting notes dashboard built with **Next.js A
 - **Better-SQLite3** for local, embedded persistence
 - **Prisma schema + migrations** included as reference, with runtime queries implemented over raw SQLite in this build
 
+## Repository
+
+- Source: https://github.com/Henry-Samuel/sprintnotes
+- Issues: https://github.com/Henry-Samuel/sprintnotes/issues
+
 ## Getting started
 
 ```bash
