@@ -23,7 +23,7 @@ A minimal, server-rendered sprint/meeting notes dashboard built with **Next.js A
 
 > The home page renders a single meeting summary with categories, participants, decisions, and action items.
 
-![sprintnotes](https://github.com/user-attachments/assets/placeholder.png)
+> Screenshot: local-first sprint dashboard rendered in the browser.
 
 ## What this project shows
 
