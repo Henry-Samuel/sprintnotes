@@ -20,6 +20,10 @@
 # production
 /build
 
+# prisma
+/prisma
+/prisma/migrations
+
 # misc
 .DS_Store
 *.pem
@@ -40,8 +44,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/src/generated/prisma
-/prisma
-/prisma/migrations
 .venv
 dist
