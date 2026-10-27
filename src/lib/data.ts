@@ -1,7 +1,13 @@
 import Database from "better-sqlite3";
 import path from "path";
+import fs from "fs";
 
 const DB_PATH = path.join(process.cwd(), "prisma", "dev.db");
+// Ensure the parent directory exists before opening the database
+if (!fs.existsSync(path.dirname(DB_PATH))) {
+  fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
+}
+
 const db = new Database(DB_PATH);
 
 const CREATE_TABLES = `
